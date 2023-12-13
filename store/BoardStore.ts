@@ -2,8 +2,8 @@ import { create } from 'zustand';
 import { ID, database, storage, } from '@/appwrite';
 import { getTodosGroupedByColumn } from '@/lib/getTodosGroupedByColumn';
 import { Board, Column, Image, Todo, TypedColumn, } from '@/typings';
-import Image from 'next/image';
-import { Image } from 'openai/resources';
+
+
 import uploadImage from '@/lib/uploadImage';
 
 
